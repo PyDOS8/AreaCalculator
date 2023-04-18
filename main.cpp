@@ -61,6 +61,5 @@ int main(){
       cin >> four;
       int result = one+two+three+four;
       cout << "The perimeter is " << result << "cm/ft/in";
-    }
   }
 }
