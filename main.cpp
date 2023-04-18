@@ -62,5 +62,12 @@ int main(){
       int result = one+two+three+four;
       cout << "The perimeter is " << result << "cm/ft/in";
     }
+    if(amount == 5){
+      float one;
+      float two;
+      float three;
+      float four;
+      float five;
+    }
   }
 }
