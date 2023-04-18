@@ -27,7 +27,7 @@ int main(){
     cin >>> base;
     printf("What is the height? ");
     float calc = base*height/2;
-    cout << "The area is " << calc << "cm";
+    cout << "The area is " << calc << "cm/in/ft";
   }
   if(area == 4){
     int amount;
@@ -37,11 +37,30 @@ int main(){
       float one;
       float two;
       float three;
+      printf("Enter the first side ");
+      cin >> one;
+      printf("Enter the second side ");
+      cin >> two;
+      printf("Enter the third side ");
+      cin >> three;
+      int result = one+two+three;
+      cout << "The perimeter is " << result + " << cm/in/ft";
     }
     if(amount == 4){
       float one;
       float two;
       float three;
       float four;
+      printf("Enter the first side ");
+      cin >> one;
+      printf("Enter the second side ");
+      cin >> two;
+      printf("Enter the third side ");
+      cin >> three;
+      printf("Enter the fourth side ");
+      cin >> four;
+      int result = one+two+three+four;
+      cout << "The perimeter is " << result << "cm/ft/in";
+    }
   }
 }
