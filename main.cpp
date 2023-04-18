@@ -10,7 +10,7 @@ int main(){
     printf("What is the length of the square? circle(2) ");
     cin >> length;
     printf("What is the width of the square? ");
-    int calc = length*width;
+    float calc = length*width;
     cout << "The area is " << calc << "cm" << endl;
     main();
   }
@@ -26,7 +26,7 @@ int main(){
     float base;
     float height;
     printf("What is the base? ");
-    cin >>> base;
+    cin >> base;
     printf("What is the height? ");
     float calc = base*height/2;
     cout << "The area is " << calc << "cm/in/ft" << endl;
@@ -46,7 +46,7 @@ int main(){
       cin >> two;
       printf("Enter the third side ");
       cin >> three;
-      int result = one+two+three;
+      float result = one+two+three;
       cout << "The perimeter is " << result + " << cm/in/ft" << endl;
       main();
     }
@@ -63,7 +63,7 @@ int main(){
       cin >> three;
       printf("Enter the fourth side ");
       cin >> four;
-      int result = one+two+three+four;
+      float result = one+two+three+four;
       cout << "The perimeter is " << result << " cm/mm/m/ft/in" << endl;
       main();
     }
@@ -83,7 +83,7 @@ int main(){
       cin >> four;
       printf("Enter the fifth side ");
       cin >> five;
-      int result = one+two+three+four+five;
+      float result = one+two+three+four+five;
       cout << "The perimeter is " << result << "cm/mm/m/ft/in" << endl;
       main();
     }
