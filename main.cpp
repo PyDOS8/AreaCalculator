@@ -31,5 +31,7 @@ int main(){
   }
   if(area == 4){
     int amount;
-    
+    printf("Enter an amount 4-14> ");
+    cin >> amount;
+  }
 }
