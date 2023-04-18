@@ -29,7 +29,7 @@ int main(){
     cin >> base;
     printf("What is the height? ");
     float calc = base*height/2;
-    cout << "The area is " << calc << "cm/in/ft" << endl;
+    cout << "The area is " << calc << "cm/in/ft/mm" << endl;
     main();
   }
   if(area == 4){
