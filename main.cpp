@@ -33,5 +33,15 @@ int main(){
     int amount;
     printf("Enter an amount 4-14> ");
     cin >> amount;
+    if(amount == 3){
+      float one;
+      float two;
+      float three;
+    }
+    if(amount == 4){
+      float one;
+      float two;
+      float three;
+      float four;
   }
 }
