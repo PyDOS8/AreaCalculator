@@ -47,7 +47,7 @@ int main(){
       printf("Enter the third side ");
       cin >> three;
       float result = one+two+three;
-      cout << "The perimeter is " << result + " << cm/in/ft" << endl;
+      cout << "The perimeter is " << result  << " cm/in/ft" << endl;
       main();
     }
     if(amount == 4){
@@ -89,3 +89,4 @@ int main(){
     }
   }
 }
+      
