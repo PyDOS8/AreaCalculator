@@ -34,7 +34,7 @@ int main(){
   }
   if(area == 4){
     int amount;
-    printf("Enter an amount 3-14> ");
+    printf("Enter an amount 3-13> ");
     cin >> amount;
     if(amount == 3){
       float one;
@@ -86,6 +86,65 @@ int main(){
       float result = one+two+three+four+five;
       cout << "The perimeter is " << result << "cm/mm/m/ft/in" << endl;
       main();
+    }
+    if(amount == 6){
+      float one;
+      float two;
+      float three;
+      float four;
+      float five;
+      float six;
+      printf("Enter the first side ");
+      cin >> one;
+      printf("Enter the second side ");
+      cin >> two;
+      printf("Enter the third side ");
+      cin >> three;
+      printf("Enter the fourth side ");
+      cin >> four;
+      printf("Enter your fifth mark ");
+      cin >> five;
+      printf("Enter your sixth mark ");
+      cin >> six;
+      float result = one+two+three+four+five+six;
+      cout << "The perimeter is " << result << "cm/mm/ft/in/m " << endl;
+      main();
+    }
+    if(amount == 7){
+      float one;
+      float two;
+      float three;
+      float four;
+      float five;
+      float six;
+      float seven;
+      printf("Enter the first side ");
+      cin >> one;
+      printf("Enter the second side ");
+      cin >> two;
+      printf("Enter the third side ");
+      cin >> three;
+      printf("Enter the fourth side ");
+      cin >> four;
+      printf("Enter the fifth side > ");
+      cin >> five;
+      printf("Enter the sixth side ");
+      cin >> six;
+      printf("Enter the seventh side ");
+      cin >> seven;
+      int result = one+two+three+four+five+six+seven;
+      cout << "The perimeter " << result << "in/mm/m/cm/ft" << endl;
+      main();
+    }
+    if(amount == 8){
+      float one;
+      float two;
+      float three;
+      float four;
+      float five;
+      float six;
+      float seven;
+      float eight;
     }
   }
 }
