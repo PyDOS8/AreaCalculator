@@ -145,6 +145,25 @@ int main(){
       float six;
       float seven;
       float eight;
+      printf("Enter the first side ");
+      cin >> one;
+      printf("Enter the second side ");
+      cin >> two;
+      printf("Enter the third side ");
+      cin >> three;
+      printf("Enter the fourth side ");
+      cin >> four;
+      printf("Enter the fifth side ");
+      cin >> five;
+      printf("Enter the sixth side ");
+      cin >> six;
+      printf("Enter the seventh side ");
+      cin >> seven;
+      printf("Enter the eighth side ");
+      cin >> eight;
+      int result = one+two+three+four+five+six+seven+eight;
+      cout << "The perimeter is " << result << "in/cm/ft/mm/m" << endl;
+      main();
     }
   }
 }
