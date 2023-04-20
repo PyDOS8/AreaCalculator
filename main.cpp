@@ -18,7 +18,7 @@ int main(){
     float radius;
     printf("What is the radius of the circle? ");
     cin >> radius;
-    float calc = 3.14*radius*2;
+    float calc = 3.14*radius*radius;
     cout << "The area is " << calc << endl;
     main();
   }
