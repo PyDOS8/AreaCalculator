@@ -7,7 +7,7 @@ int main(){
   if(area == 1){
     float length;
     float width;
-    printf("What is the length of the square? circle(2) ");
+    printf("What is the length of the square? ");
     cin >> length;
     printf("What is the width of the square? ");
     float calc = length*width;
